@@ -1,0 +1,134 @@
+<html>
+<body>
+<ol>
+    <li>HTTP es simple</li>
+    <li>Solicitudes entre clientes y servidor</li>
+        <dl>
+	       <dt>Paso 1</dt> 
+	             <dd>El cliente manda una peticion</dd>
+           <dt>Paso 2</dt> 
+                 <dd>El servidor devuelve una respuesta</dd>
+        </dl>
+    <li>¿Que es HTML?</li>
+         <ul type="circle">
+	         <li>Es un lenguaje de marcas</li>
+             <li>Se usa para la elaboracion de paginas web</li>
+             <li>Es un estandar reconocido mundialmente</li>
+                  <ul type="square">
+	                 <li>Sus normas vienen dad por el World Wide Web Consortium o W3C</li>
+	              </ul>
+         </ul>
+</ol>
+<br>
+<h1>Lista de Ganadores</h1>
+<ul type="square">
+	<li>Juan Perez</li>
+	     <ol>
+             <li>Televisor de 54 pulgadas</li>
+             <li>Tablet Lenovo</li>
+         </ol>
+    <li>Juana de Arco</li>
+         <ol type="a">
+             <li>Acces Point 5G</li>
+             <li>Teclado Multimedia</li>
+             <li>Mouse Gamer</li>
+         </ol>
+    <li>Luis Suarez</li>
+        <dl>
+	       <dt>Ferrari</dt> 
+	             <dd>Es marca de coches italiana</dd>
+           <dt>Audi</dt> 
+                 <dd>Es marca de coches alemana</dd>
+        </dl>
+    <li>Maria Magdalena</li>
+        <ol type="I">
+             <li>Acces Point 5G</li>
+             <li>Teclado Multimedia</li>
+             <li>Mouse Gamer</li>
+         </ol>
+</ul>
+
+<br>
+<style>
+     div.a {
+     	text-align: center;
+     } 
+</style>
+<div class="a">
+<h1>iDESWEB</h1>
+</div>
+<div class="a">
+<h4>Formulario de registro</h4>
+</div>
+<form>
+ <br>
+ <fieldset>
+  <legend>¿QUIÉN ERES?</legend>
+  Nombre: <br><input name='nombre' type='text' tabindex='1'><br>
+  Apellidos: <br><input name='apellidos' type='text' tabindex='2'><br>
+  Correo electronico: <br><input name="Correo" type="Email" required="true" tabindex='3'><br>
+  Fecha de Nacimiento <br><input name="Nacimiento" type="date" tabindex="4">
+ </fieldset>
+ <br>
+ <fieldset>
+  <legend>¿DE DONDE ERES?</legend>
+  Ciudad: <br><input name='Ciudad' type='text' tabindex='1'><br>
+  Codigo Postal: <br><input name="Codigo" type='text' tabindex='2'>
+  <br>
+	<label>Pais</label>
+	<br><select size="1">
+		<option value="">Peru</option>
+		<option value="">Paraguay</option>
+		<option value="">Argentina</option>
+		<option value="">Bolivia</option>
+	</select>
+   <br>
+ </fieldset>
+ <br>
+ <fieldset>
+ 	<legend>¿COMO QUIERES INICIAR SESION?</legend>
+      <label for="username">Nombre de usuario:</label><br>
+      <input type="text" id="username" name="username"><br>
+      <label for="pwd">Contraseña:</label><br>
+      <input type="password" id="pwd" name="pwd"><br>
+      <label for="pwd">Vuelve a escribir la contraseña:</label><br>
+      <input type="password" id="pwd" name="volver">
+ </fieldset>
+ <br>
+ <fieldset>
+ 	<legend>CONDICIONES DE REGISTRO</legend>
+      <label >Deseo recibir ofertas de iDESWEB</label><br>
+      <br><input type="radio" id="Una vez al dia" name="gender" value="Una vez al dia">
+      <label for="Una vez al dia">Una vez al dia</label>
+      <input type="radio" id="Una vez a la semana" name="gender" value="Una vez a la semana">
+      <label for="Una vez a la semana">Una vez a la semana</label>
+      <input type="radio" id="Una vez al mes" name="gender" value="Una vez al mes">
+      <label for="Una vez al mes">Una vez al mes</label><br>
+      <br><input type="checkbox" id="Acepto el acuerdo de servicios, la declaracion de privacidad y la declaracion de uso de cookies" name="vehicle1" value="Acepto el acuerdo de servicios, la declaracion de privacidad y la declaracion de uso de cookies">
+      <label for="Acepto el acuerdo de servicios, la declaracion de privacidad y la declaracion de uso de cookies"> Acepto el acuerdo de servicios, la declaracion de privacidad y la declaracion de uso de cookies</label><br>
+ </fieldset>
+   
+   <input type="submit" value="CREAR CUENTA">
+</form>
+<br>
+<h1>Rellena tu CV</h1>
+<form>
+     Nombre: <br><input name='nombre' type='text' tabindex='1'><br>
+     Apellidos: <br><input name='apellidos' type='text' tabindex='2'><br>
+     <label for="pwd">Contraseña:</label><br>
+      <input type="password" id="pwd" name="pwd"><br>
+      DNI: <br><input name='nombre' type='number' tabindex='1'><br>
+      <label>Sexo</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Hombre</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Mujer</label><br>
+      <br><label>Incluir mi foto</label>
+      <input type="file" name="botondeenvio"><br>
+      <br><input type="checkbox" id="Suscribirme al boletin de novedades" name="vehicle1" value="Suscribirme al boletin de novedades">
+      <label for="Suscribirme al boletin de novedades"> Suscribirme al boletin de novedades</label><br>
+      <br><input type="submit" value="Guardar cambios">
+      <input type="reset" value="Borrar los datos introducidos">
+</form>
+</body>
+</html>
